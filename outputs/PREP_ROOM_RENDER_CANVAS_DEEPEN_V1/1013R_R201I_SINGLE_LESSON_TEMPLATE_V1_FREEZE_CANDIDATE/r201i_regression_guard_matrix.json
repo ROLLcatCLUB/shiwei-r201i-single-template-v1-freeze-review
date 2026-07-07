@@ -1,0 +1,76 @@
+{
+  "stage": "1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE",
+  "guards": [
+    {
+      "id": "schema_parseable",
+      "owner": "R201I",
+      "must_pass": true
+    },
+    {
+      "id": "teacher_main_allowed_sources_only",
+      "owner": "R201C/R201I",
+      "allowed": [
+        "uploaded_source",
+        "R114_graph",
+        "R114_execution_map",
+        "R114_field_projection",
+        "teacher_accepted_provisional_candidate"
+      ]
+    },
+    {
+      "id": "teacher_main_forbidden_sources_zero",
+      "owner": "R201H-P1/R201I",
+      "forbidden": [
+        "R200A_kernel",
+        "R200B_candidate",
+        "R97B_P3_derivation_spine",
+        "deterministic_fallback",
+        "legacy_shell",
+        "unknown",
+        "source_gap"
+      ]
+    },
+    {
+      "id": "source_gap_as_content_zero",
+      "owner": "R201H-P1/R201I"
+    },
+    {
+      "id": "provisional_requires_teacher_confirmation",
+      "owner": "R201I"
+    },
+    {
+      "id": "engineering_terminology_guard",
+      "owner": "R201H-P1/R201I",
+      "forbidden_terms": [
+        "R114A",
+        "R114B",
+        "R114C",
+        "R200",
+        "R201",
+        "execution map",
+        "field projection",
+        "parser",
+        "validator",
+        "source ledger",
+        "lean chain",
+        "执行地图"
+      ]
+    },
+    {
+      "id": "minimal_line_fish_actual_episodes_at_least_3",
+      "owner": "R201H-P1/R201I"
+    },
+    {
+      "id": "student_creation_step_not_swallowed",
+      "owner": "R201H-P1/R201I"
+    },
+    {
+      "id": "R201F_canary_metadata_contract_kept",
+      "owner": "R201F/R201I"
+    },
+    {
+      "id": "no_formal_apply_no_write_no_R95_no_model",
+      "owner": "R201I"
+    }
+  ]
+}

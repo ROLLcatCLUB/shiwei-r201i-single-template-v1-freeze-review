@@ -1,0 +1,120 @@
+﻿{
+    "package":  "shiwei-r201i-single-template-v1-freeze-review",
+    "stage":  "1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE",
+    "created_at":  "2026-07-08T00:00:00+08:00",
+    "source_workspace":  "D:\\Documents\\SmartEdu\\xiaobei-core",
+    "file_count":  22,
+    "total_bytes":  225108,
+    "files":  [
+                  {
+                      "path":  ".gitattributes",
+                      "bytes":  116,
+                      "sha256":  "234DED308780CE0587D01BC8266FB08B477C4342B516AE047574641695F09C98"
+                  },
+                  {
+                      "path":  "backend/xiaobei_ai/prep_room_import_understanding_v2_graph_1013R_R114A.py",
+                      "bytes":  39284,
+                      "sha256":  "34A48005C1E7A25BF104F90E1A026531CA1E936A00FF142769D19E23C10FAF02"
+                  },
+                  {
+                      "path":  "backend/xiaobei_ai/prep_room_lean_readonly_chain_1013R_R201C.py",
+                      "bytes":  47943,
+                      "sha256":  "E515DA21CE1CF9263DDAEE83388FF4E16BB11993959950DCDAD2DE510A5F652B"
+                  },
+                  {
+                      "path":  "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH/r201f_response_metadata_contract.json",
+                      "bytes":  721,
+                      "sha256":  "4A07F5E91672C9E8A4CC7DF487011FBB2F13C5E7C7F68A4FFC7C03E9BF1951F6"
+                  },
+                  {
+                      "path":  "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201H_P1_TEACHER_MAIN_CLEANUP_AND_MINIMAL_EXTRACTION_REGRESSION/r201h_p1_minimal_extraction_regression_report.md",
+                      "bytes":  522,
+                      "sha256":  "A55622FA6DB7B198E8C7615B7B2438FBEC877BD498717A0DF22CCF29C10949B0"
+                  },
+                  {
+                      "path":  "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201H_P1_TEACHER_MAIN_CLEANUP_AND_MINIMAL_EXTRACTION_REGRESSION/r201h_p1_teacher_main_cleanup_report.md",
+                      "bytes":  642,
+                      "sha256":  "E7DD56811C8A8A2200146C093253E7765EB86CD0811B77ADCA28AD32EBD6CDCD"
+                  },
+                  {
+                      "path":  "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201H_P1_TEACHER_MAIN_CLEANUP_AND_MINIMAL_EXTRACTION_REGRESSION/validate_1013R_R201H_P1_teacher_main_cleanup_and_minimal_extraction_regression_result.json",
+                      "bytes":  12067,
+                      "sha256":  "4BEAB62835D97CF31B90198081B6D2BA369EA521CE10B73494BA533E1BD3381F"
+                  },
+                  {
+                      "path":  "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE/r201i_episode_semantics_contract.md",
+                      "bytes":  1356,
+                      "sha256":  "0ECAA0ED6B80AACEC115C1ED8F1433A3115A2C4EABB3DB03D0F5555022164B41"
+                  },
+                  {
+                      "path":  "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE/r201i_field_semantics_contract.md",
+                      "bytes":  1601,
+                      "sha256":  "BBB9E6A508BF4BE655843D819419A734F4BEBBF7E3C9E0FE89BAA1868AD58098"
+                  },
+                  {
+                      "path":  "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE/r201i_freeze_scope_and_non_scope.md",
+                      "bytes":  726,
+                      "sha256":  "1A4D639EBB2E2A1EDA7856023736F1C42448E4A9998E745EC3B209F59000382F"
+                  },
+                  {
+                      "path":  "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE/r201i_migration_notes_from_R201H_P1.md",
+                      "bytes":  401,
+                      "sha256":  "88E5F84232F05859B883A9C6C911800F3A033FBB7C1C9016040FCF3D4193CCC1"
+                  },
+                  {
+                      "path":  "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE/r201i_regression_guard_matrix.json",
+                      "bytes":  1785,
+                      "sha256":  "7F75DD3489FD3A4C562940AD5B9E6FA2BCFF3CB9265A7C75783018C2E18FDF24"
+                  },
+                  {
+                      "path":  "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE/r201i_single_lesson_template_v1_schema.json",
+                      "bytes":  14758,
+                      "sha256":  "C4A64F3243AC478AC923B445FAB3DBCDA9D6A44138AC1CAC1355DD9E7EA38DC9"
+                  },
+                  {
+                      "path":  "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE/r201i_source_gap_and_provisional_display_policy.md",
+                      "bytes":  784,
+                      "sha256":  "C40F2134773E5B14D09A14B5C36A900EE2703D0150523BCA318B3D31E5511498"
+                  },
+                  {
+                      "path":  "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE/r201i_teacher_facing_source_label_policy.md",
+                      "bytes":  616,
+                      "sha256":  "22DF308408CC39DDB23968125DD095FB15BD3B821533FBBDF69A7F744C95D3C0"
+                  },
+                  {
+                      "path":  "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE/r201i_teacher_main_source_policy.json",
+                      "bytes":  1289,
+                      "sha256":  "15B40F30550DECBB8FF3B92368B921790A0065EFC06C441D35BF57F8EF51758B"
+                  },
+                  {
+                      "path":  "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE/validate_1013R_R201I_single_lesson_template_v1_freeze_candidate_result.json",
+                      "bytes":  3868,
+                      "sha256":  "FD0739C59F33384DF4A755B06FAC93EA3E5BBDF9F0722E89F34684168DAFB468"
+                  },
+                  {
+                      "path":  "README.md",
+                      "bytes":  2853,
+                      "sha256":  "30765FDB1D27B37A3AF7948C718DC81036EC42DCE256F3FF0F5A594537F78371"
+                  },
+                  {
+                      "path":  "scripts/validate_1013r_r201d_lean_chain_multi_format_regression.py",
+                      "bytes":  26710,
+                      "sha256":  "03C7B871C06DF2F1ECAB656E8C068C6643FA63C9DFBA91582096A218AAE8D9BA"
+                  },
+                  {
+                      "path":  "scripts/validate_1013r_r201g_canary_manual_teacher_readability_smoke.py",
+                      "bytes":  31567,
+                      "sha256":  "6D12A0AFDA5475FC7746B2CC755F9F15B2865867A2A31119AD97ABCEDE69AC26"
+                  },
+                  {
+                      "path":  "scripts/validate_1013r_r201h_p1_teacher_main_cleanup_and_minimal_extraction_regression.py",
+                      "bytes":  11630,
+                      "sha256":  "F3BAA04D48678E6550ED9139B595575EACB5B1BA89345B56335BADDEB605640D"
+                  },
+                  {
+                      "path":  "scripts/validate_1013r_r201i_single_lesson_template_v1_freeze_candidate.py",
+                      "bytes":  23869,
+                      "sha256":  "D2816C68855D4E5A93AB2C9B6416614EA584E35ACFD60C51ADC94EC8FEAAC23E"
+                  }
+              ]
+}

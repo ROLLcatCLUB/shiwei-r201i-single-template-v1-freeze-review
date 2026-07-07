@@ -1,0 +1,76 @@
+{
+  "stage": "1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE",
+  "status": "PASS",
+  "classification": "single_lesson_template_v1_candidate_freeze",
+  "decision": "PASS_AS_TEMPLATE_CONTRACT_FREEZE_CANDIDATE",
+  "checks": {
+    "p1_pass": true,
+    "schema_parseable": true,
+    "schema_required_top_level_keys_present": true,
+    "teacher_main_allowed_source_policy_explicit": true,
+    "teacher_main_forbidden_source_policy_explicit": true,
+    "source_gap_not_teacher_content": true,
+    "provisional_requires_teacher_confirmation": true,
+    "engineering_guard_kept": true,
+    "minimal_line_fish_regression_kept": true,
+    "R200A_R200B_R97B_P3_forbidden": true,
+    "R201F_canary_metadata_contract_kept": true,
+    "not_quality_freeze": true,
+    "no_formal_apply": true,
+    "no_write": true,
+    "no_R95": true,
+    "no_model_provider_call": true,
+    "py_compile_pass": true
+  },
+  "outputs": {
+    "schema": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE\\r201i_single_lesson_template_v1_schema.json",
+    "field_semantics": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE\\r201i_field_semantics_contract.md",
+    "episode_semantics": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE\\r201i_episode_semantics_contract.md",
+    "source_policy": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE\\r201i_teacher_main_source_policy.json",
+    "gap_policy": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE\\r201i_source_gap_and_provisional_display_policy.md",
+    "label_policy": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE\\r201i_teacher_facing_source_label_policy.md",
+    "freeze_scope": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE\\r201i_freeze_scope_and_non_scope.md",
+    "guard_matrix": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE\\r201i_regression_guard_matrix.json",
+    "migration_notes": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE\\r201i_migration_notes_from_R201H_P1.md",
+    "validation_result": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201I_SINGLE_LESSON_TEMPLATE_V1_FREEZE_CANDIDATE\\validate_1013R_R201I_single_lesson_template_v1_freeze_candidate_result.json"
+  },
+  "metrics": {
+    "top_level_key_count": 17,
+    "section_key_count": 7,
+    "allowed_source_count": 5,
+    "forbidden_source_count": 7,
+    "engineering_guard_term_count": 12,
+    "r201f_metadata_keys_found": [
+      "canary_enabled",
+      "fallback_reason",
+      "fallback_used",
+      "formal_apply_enabled",
+      "lean_chain_available",
+      "legacy_chain_available",
+      "preview_engine_requested",
+      "preview_engine_selected",
+      "write_enabled"
+    ]
+  },
+  "boundary": {
+    "full_default_route_switch": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "pptx_pdf_docx_generated": false,
+    "R95_executed": false,
+    "provider_called": false,
+    "model_called": false,
+    "curriculum_library_built": false,
+    "xiaojiao_real_edit_wired": false,
+    "large_R97B_UI_redesign": false,
+    "teaching_quality_freeze": false
+  },
+  "py_compile": {
+    "command": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python314\\python.exe -m py_compile scripts/validate_1013r_r201i_single_lesson_template_v1_freeze_candidate.py",
+    "returncode": 0,
+    "stdout_tail": "",
+    "stderr_tail": ""
+  }
+}
